@@ -17,6 +17,9 @@ module.exports = {
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended-requiring-type-checking.ts
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
+
+    // needs to be last to make sure we turn off potential formatting rules from other extensions
+    'prettier'
   ],
 
   // All rules can be found here: https://typescript-eslint.io/rules/ avoid use of formatting rules, use formatters instead

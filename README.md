@@ -1,12 +1,31 @@
 # Typescript Node Boilerplate
 
-Boilerplate project for Node using Typescript.
+Boilerplate Node project using Typescript.
 
 ## TSConfig
 
 - `tsconfig.node16.json` is the [recommended base tsconfig file](https://github.com/tsconfig/bases/blob/main/bases/node16.json) for Node v16 projects.
 - `tsconfig.json` is extending the `tsconfig.node16.json` with my personal preferences regarding compiler options.
-- [Typescript Config Docs](https://www.typescriptlang.org/tsconfig)
+- [Typescript config docs](https://www.typescriptlang.org/tsconfig)
+
+## ESLint
+
+You can read more on how to start with ESLint for Typescript and the list of rules below:
+- [Typescript ESLint docs](https://typescript-eslint.io/getting-started)
+- [Typescript ESLint rule list](https://typescript-eslint.io/rules/)
+
+The recommended starting rule sets are, which are the ones used in this project are:
+
+- [eslint:recommended](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/eslint-recommended.ts)
+- [@typescript-eslint/recommended](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts)
+- [@typescript-eslint/recommended-requiring-type-checking](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended-requiring-type-checking.ts)
+
+:warning: Important :warning::
+We also mention that below in the Prettier section, but it's [not suggested](https://typescript-eslint.io/linting/troubleshooting/formatting/#suggested-usage---prettier) to use linters for formatting:
+> Neither typescript-eslint nor ESLint core enable any formatting-related rules in any recommended presets.
+> However, some third party plugin configurations may still enable that bad practice.
+
+To make sure that all formatting rules of your linter are off you can install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation).
 
 ## Prettier
 
