@@ -33,3 +33,11 @@ overrides. Overrides can be done in the `.prettierrc.json` file.
 - [Why not use linters for formatting](https://typescript-eslint.io/linting/troubleshooting/formatting/)
 - [Don't use the eslint-plugin-prettier](https://typescript-eslint.io/linting/troubleshooting/performance-troubleshooting#eslint-plugin-prettier)
 - [Prettier options list](https://prettier.io/docs/en/options.html)
+
+## EditorConfig
+
+> EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across
+> various editors and IDEs.
+
+- [EditorConfig](https://editorconfig.org/)
+- [Full list of EditorConfig properties](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties)
