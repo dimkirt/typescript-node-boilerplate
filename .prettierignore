@@ -1,0 +1,11 @@
+node_modules
+dist
+.idea
+.gitignore
+.nvmrc
+.npmrc
+package.json
+package-lock.json
+README.md
+tsconfig.json
+tsconfig.node16.json
