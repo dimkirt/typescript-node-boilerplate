@@ -23,5 +23,7 @@ module.exports = {
   ],
 
   // All rules can be found here: https://typescript-eslint.io/rules/ avoid use of formatting rules, use formatters instead
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-base-to-string": "error",
+  },
 };

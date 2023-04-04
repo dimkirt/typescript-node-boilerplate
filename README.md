@@ -60,3 +60,6 @@ overrides. Overrides can be done in the `.prettierrc.json` file.
 
 - [EditorConfig](https://editorconfig.org/)
 - [Full list of EditorConfig properties](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties)
+
+## Githooks
+
