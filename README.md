@@ -63,3 +63,7 @@ overrides. Overrides can be done in the `.prettierrc.json` file.
 
 ## Githooks
 
+To set up githooks we use [husky](https://typicode.github.io/husky/#/).
+We use two hooks,
+- one before committing which makes sure we commit only linted code and uses prettier to format it before committing
+- and one before pushing that is going to run the tests and build the Typescript code.

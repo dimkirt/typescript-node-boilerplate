@@ -9,7 +9,9 @@
     "start": "node dist/main.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/main.js\"",
     "lint": "npx eslint src/",
-    "prettier": "npx prettier --write src/"
+    "prettier": "npx prettier --write src/",
+    "test": "echo 'No tests yet!'",
+    "pre-push": "npm run test"
   },
   "devDependencies": {
     "@types/express": "4.17.17",
@@ -30,7 +32,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run pre-push"
     }
   },
   "lint-staged": {
