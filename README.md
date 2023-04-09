@@ -67,3 +67,38 @@ To set up githooks we use [husky](https://typicode.github.io/husky/#/).
 We use two hooks,
 - one before committing which makes sure we commit only linted code and uses prettier to format it before committing
 - and one before pushing that is going to run the tests and build the Typescript code.
+
+## Testing
+
+We use [mocha](https://www.npmjs.com/package/mocha) as our test runner, you can run all the tests by running:
+
+```bash
+npm run test
+```
+
+## Serving the app locally
+
+You can serve the app locally by running:
+
+```bash
+npm install
+npm run dev
+```
+
+Node.js needs to be installed.
+
+## Docker
+
+We use the [distroless](https://github.com/GoogleContainerTools/distroless) image from Google to have smaller and more secure images.
+
+To build the container image:
+
+```bash
+docker build -t typescript-node-boilerplate .
+```
+
+To start a docker container:
+
+```bash
+docker run -p 3000:3000 typescript-node-boilerplate
+```

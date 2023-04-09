@@ -1,0 +1,17 @@
+.husky
+.idea
+dist
+node_modules
+.git
+.editorconfig
+.eslintrc.js
+.gitignore
+.npmrc
+.nvmrc
+.prettierignore
+.prettierrc.json
+README.md
+*.log
+*.tar
+.vscode
+src/**/*.spec.ts
