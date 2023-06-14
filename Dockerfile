@@ -1,5 +1,5 @@
 # First stage: Build the app
-FROM node:16-alpine AS builder
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ RUN npm ci \
     && npm ci --only=prod
 
 # Second stage: Copy the app and dependencies to a distroless image
-FROM gcr.io/distroless/nodejs:16
+FROM gcr.io/distroless/nodejs:20
 
 WORKDIR /app
 

@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.node16.json",
+  "extends": "./tsconfig.node20.json",
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
 
@@ -15,5 +15,5 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true
-  },
+  }
 }
