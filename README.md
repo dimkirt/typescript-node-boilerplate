@@ -102,3 +102,8 @@ To start a docker container:
 ```bash
 docker run -p 3000:3000 typescript-node-boilerplate
 ```
+
+## CI
+
+I use [Github Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) for CI since it's extremely easy to set it up with GitHub.
+I use the [official "Setup Node.js Environment" action](https://github.com/marketplace/actions/setup-node-js-environment)
